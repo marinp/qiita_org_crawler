@@ -1,0 +1,18 @@
+To a Great Hacker,
+
+こんにちは！<%= conf['default']['company']['name'] %>のQiita Organizationでの更新情報をお送りします。
+
+----------------------------------------------------------------------
+<% @item_list.each do | article | %>
+  <%= article[:name] %>さん
+  - <%= article[:title] %>
+    http://qiita.com<%= article[:url] %>
+<% end %>
+----------------------------------------------------------------------
+
+▼<%= conf['default']['company']['name'] %>のQiita Organizationを見る
+<%= conf['default']['company']['url'] %>
+
+今日も良い1日を！
+
+<%= conf['default']['mail']['sender_name'] %>
