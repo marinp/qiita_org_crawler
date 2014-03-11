@@ -1,5 +1,9 @@
 default:
   mail:
-    to: user@example.com
-    sender: user@example.com
-    
+    to: test@gmail.com
+    sender: test@gmail.com
+    sender_name: name 
+  company:
+    url: http://qiita.com/organizations/xxxxx
+    name: Xxxxx 
+    name_regEx: xxxxx 
